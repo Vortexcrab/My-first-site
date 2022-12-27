@@ -1,0 +1,239 @@
+.main_wallpaper{
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	top: 0%;
+	left:0%;
+}
+
+#play{
+	position: absolute;
+	height: 5%;
+	width: 7%;
+	top: 90%;
+	left:90%;
+}
+
+#panel {
+    position: fixed; /* положение */
+    top: 0; /* отступ сверху */
+    left: 0; /* отступ слева */
+    background: #2EFF00; /* цвет фона */
+    width: 30px; /* ширина блока */
+    height: 100vh; /* высота блока */
+    color: #fff; /* цвет текста */
+    text-align: center; /* выравнивание текста по центру */
+    padding: 5px; /* отступы от границ внутри блока */
+
+    -webkit-transition-duration: 0.3s; /* анимационное выдвижение для всех браузеров*/
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    -webkit-border-radius: 0 5px 5px 0; /* закругление границ для всех браузеров*/
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+    }
+
+/* СКРЫТЫЙ БЛОК */
+#hidden_panel {
+    position: fixed; /* положение */
+    top: 0; /* отступ сверху */
+    left: -120px; /* отступ слева */
+    background: lavender; /* цвет фона */
+    color: #000; /* цвет текста */
+    width: 100px; /* ширина блока */
+    height: 100vh; /* высота блока */
+    padding: 10px; /* отступы от границ внутри блока */
+    text-align: left; /* выравнивание текста */
+
+    -webkit-transition-duration: 0.3s; /* анимационное выдвижение для всех браузеров*/
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+/*
+    -webkit-border-radius: 0 5px 5px 0; /* закругление границ для всех браузеров*/
+   /* -moz-border-radius: 0 5px 5px 0;
+   /* border-radius: 0 5px 5px 0;*/
+    }
+	
+#panel:hover {
+    left: 120px; /* при наведении выдвигается на скрытые 200px + 20px отступы */
+}
+
+#panel:hover #hidden_panel {
+    left: 0; /* отступ слева */
+}
+
+#classes{
+	position: absolute;
+	height: 10%;
+	width: 100%;
+	top: 4%;
+	left:0%;
+	
+	text-align: center; /* выравнивание текста */
+	font-family: "Sofia", sans-serif;
+}
+
+.warior{
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	top: 0%;
+	left:0%;
+	transform: translate(0%, 0%);
+	text-align: left;
+}
+
+#opis{
+	position: absolute;
+    top: 15%;
+    left: 20px;
+	width: 400px;
+	color: #EB180A;
+	text-shadow: orange 0 1px 0, orange 0 -1px 0, 
+                 orange -1px 1px 0, orange 1px -1px 0;
+	text-align: center; 
+	font-family: "Sofia", sans-serif;
+	
+}
+
+#WAR{
+	position: absolute;
+    top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	
+	color: #EB180A;
+	text-shadow: orange 0 1px 0, orange 0 -1px 0, 
+                 orange -1px 1px 0, orange 1px -1px 0;
+	text-align: center; 
+	font-family: "Sofia", sans-serif;
+	font-size: 60px;
+}
+
+#back{
+	position: absolute;
+	height: 10vh;
+	width: 8vw;
+	top: 80%;
+	left: 3%;
+	
+	text-align: center; /* выравнивание текста */
+	font-family: "Sofia", sans-serif;
+}
+
+.ranger{
+	position: absolute;
+    height: 100vh;
+	width: 100vw;
+	transform: translate(-1%, 79%);
+
+	text-align: center; 
+	font-family: "Sofia", sans-serif;
+}
+
+#opis2{
+	position: absolute;
+    top: 60%;
+    left: 62%;
+	width: 400px;
+	color: #3DFF9C;
+	text-shadow: #37E4FF 0 1px 0, #37E4FF 0 -1px 0, 
+                 #37E4FF -1px 1px 0, #37E4FF 1px -1px 0;
+	text-align: center; 
+	font-family: "Sofia", sans-serif;
+	font-size: 20px;
+}
+
+#Ranger{
+	position: absolute;
+    top: 8%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	
+	color: #3DFF9C;
+	text-shadow: #37E4FF 0 1px 0, #37E4FF 0 -1px 0, 
+                 #37E4FF -1px 1px 0, #37E4FF 1px -1px 0;
+	text-align: center; 
+	font-family: "Sofia", sans-serif;
+	font-size: 60px;
+}
+
+.mag{
+	position: absolute;
+    height: 100vh;
+	width: 100vw;
+	transform: translate(-1%, 179%);
+	text-align: center; 
+	font-family: "Sofia", sans-serif;
+}
+
+#opis3{
+	position: absolute;
+    top: 60%;
+    left: 38%;
+	width: 400px;
+	color: #C12FEB;
+	text-shadow: #CF7AEB 0 1px 0, #CF7AEB 0 -1px 0, 
+                 #CF7AEB -1px 1px 0, #CF7AEB 1px -1px 0;
+	text-align: center; 
+	font-family: "Sofia", sans-serif;
+	font-size: 20px;
+}
+
+#MAG{
+	position: absolute;
+    top: 8%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	
+	color: #C12FEB;
+	text-shadow: #CF7AEB 0 1px 0, #CF7AEB 0 -1px 0, 
+                 #CF7AEB -1px 1px 0, #CF7AEB 1px -1px 0;
+	text-align: center; 
+	font-family: "Sofia", sans-serif;
+	font-size: 60px;
+}
+
+.summoner{
+	position: absolute;
+    height: 100vh;
+	width: 100vw;
+	transform: translate(-1%, 279%);
+	text-align: center; 
+	font-family: "Sofia", sans-serif;
+}
+
+#opis4{
+	position: absolute;
+    top: 60%;
+    left: 65%;
+	width: 510px;
+	color: #F0D600;
+	text-shadow: #33C8F0 0 1px 0, #33C8F0 0 -1px 0, 
+                 #33C8F0 -1px 1px 0, #33C8F0 1px -1px 0;
+	text-align: center; 
+	font-family: "Sofia", sans-serif;
+	font-size: 20px;
+}
+
+#SUMMONER{
+	position: absolute;
+    top: 8%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	
+	color: #F0D600;
+	text-shadow: #33C8F0 0 1px 0, #33C8F0 0 -1px 0, 
+                 #33C8F0 -1px 1px 0, #33C8F0 1px -1px 0;
+	text-align: center; 
+	font-family: "Sofia", sans-serif;
+	font-size: 60px;
+}
+
